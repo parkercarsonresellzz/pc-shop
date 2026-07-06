@@ -484,4 +484,44 @@ button {
   width: 100%;
   max-width: 100%;
   box-sizing: border-box;
+}@media (max-width: 768px) {
+
+  /* Push everything down so banner doesn't overlap */
+  .hero {
+    padding-top: 80px;
+  }
+
+  /* FREE SHIPPING banner ONLY on mobile */
+  .shipping-banner {
+    font-size: 12px !important;
+    padding: 10px 12px;
+    line-height: 1.4;
+    margin-bottom: 20px;
+  }
+
+  /* Reduce text sizes ONLY on mobile */
+  h1 {
+    font-size: 28px !important;
+  }
+
+  h2 {
+    font-size: 20px !important;
+  }
+
+  p {
+    font-size: 14px !important;
+  }
+
+  /* Button scaling ONLY on mobile */
+  .shop-button {
+    font-size: 16px;
+    padding: 10px 25px;
+  }
+
+}* {
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
 }
